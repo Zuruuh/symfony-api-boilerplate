@@ -1,0 +1,5 @@
+when@dev: &dev_debug
+    debug:
+        dump_destination: "php://output"
+
+when@test: *dev_debug
